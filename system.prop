@@ -70,5 +70,8 @@ ro.telephony.default_network=22,22
 # WFD
 media.wfd.max_resolution=8
 
+# Rescue Party
+persist.sys.disable_rescue=true
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
