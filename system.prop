@@ -25,7 +25,7 @@ persist.vendor.data.mode=concurrent
 
 # Dexopt
 pm.dexopt.first-boot=quicken
-pm.dexopt.bg-dexopt=everything
+pm.dexopt.bg-dexopt=verify
 pm.dexopt.boot=verify
 pm.dexopt.install=speed-profile
 dalvik.vm.image-dex2oat-filter=speed
