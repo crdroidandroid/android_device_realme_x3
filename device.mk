@@ -9,8 +9,8 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 # Inherit proprietary blobs
 $(call inherit-product, vendor/realme/x3/x3-vendor.mk)
 
-# Inherit GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # ANT+
 PRODUCT_PACKAGES += \
