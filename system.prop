@@ -34,6 +34,9 @@ dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.dex2oat64.enabled=true
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
