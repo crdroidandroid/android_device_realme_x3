@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
     NfcNci \
     SecureElement \
     Tag
